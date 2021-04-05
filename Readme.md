@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Gulmira Abdullayeva](https://up.htmlacademy.ru/adaptive/22/user/1685769).
-* Наставник: `Неизвестно`.
+* Наставник: `Artem Ryzhov`.
 
 ---
 
