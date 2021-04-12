@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>HTML Academy: Кэт энерджи</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <a class="page-header__logo" href=""><img src="./img/logo/logo-cat-energy.svg" alt="Лого Кэт энерджи" width="33"
+        height="38" /></a>
+    <!--Декоративный элемент-->
+    <a class="page-header__logo" href=""><img src="./img/logo/footer-logo.svg" alt="Лого надпись Кэт энерджи"
+        width="101" height="18" /> </a>
+    <!--Декоративный элемент-->
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active"><a href="index.html">Главная</a></li>
+          <li class="site-list__item"><a href="catalog.html">Каталог продукции</a></li>
+          <li class="site-list__item"><a>Подбор программы</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-form">
+    <form class="selction-program-form" action="https://echo.htmlacademy.ru" method="POST">
+      <fieldset class="about-cat-fieldset">
+        <legend class="selction-program-form__header">Подбор программы</legend>
+        <p class="about-cat__text">Заполните анкету, и мы подберем
+          программу питания для вашего кота</p>
+        <label class="selction-program-form__text-field">Имя:*<input class="selction-program-form__text-field"
+            type="text" value="Барсик"></label>
+        <label class="selction-program-form__text-field">Вес(кг):*<input class="selction-program-form__text-field"
+            type="number" value="7"></label>
+        <label class="selction-program-form__text-field">Возраст(лет):<input class="selction-program-form__text-field"
+            type="number" value="7"></label>
+      </fieldset>
+      <fieldset class="radio-fieldset">
+        <label class="selction-program-form__text-field"><input class="selction-program-form__text-field" type="radio"
+            checked>Похудение</label>
+        <label class="selction-program-form__text-field"><input class="selction-program-form__text-field"
+            type="radio">Набор массы</label>
+        <label class="selction-program-form__text-field"><input class="selction-program-form__text-field"
+            type="radio">Не знаю(нужен ваш совет)</label>
+      </fieldset>
+      <fieldset class="contact-fieldset">
+        <legend class="header-fieldset">Контактные данные
+          (владельца кота)</legend>
+        <label class="selction-program-form__text-field">">E-mail:*<input class="selction-program-form__text-field"
+            type="email" placeholder="kuklachev@gmail.com"></label>
+        <label class="selction-program-form__text-field">">Телефон:*<input class="selction-program-form__text-field"
+            type="tel" placeholder="8 (960) 900-60-90"></label>
+      </fieldset>
+      <fieldset class="comment-fieldset">
+        <legend class="header-fieldset">Комментарий</legend>
+        <textarea rows="10" placeholder="Расскажите обо всех повАдках кота"></textarea>
+      </fieldset>
+      <fieldset class="checkbox-fieldset">
+        <legend class="header-fieldset">Дополнительно</legend>
+        <label class="selction-program-form__text-field"><input class="selction-program-form__text-field"
+            type="checkbox" checked>Сахарозаменитель</label>
+        <label class="selction-program-form__text-field"><input class="selction-program-form__text-field"
+            type="checkbox">Питьевая вода </label>
+        <label class="selction-program-form__text-field"><input class="selction-program-form__text-field"
+            type="checkbox">Молоко</label>
+        <label class="selction-program-form__text-field"><input class="selction-program-form__text-field"
+            type="checkbox">Витамины</label>
+      </fieldset>
+      <button class="button" type="button">Отправить заявку</button>
+      <p class="selction-program-form__text">* — Обязательные поля</p>
+    </form>
+
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__map">
+      <img src="./img/photo/location.jpg" alt="Карта Кэт энерджи">
+    </div>
+    <div class="page-footer__social-partner-link">
+      <ul class="footer-list">
+        <li class="footer-list__list-item"><a href="index.html"><img src="./img/logo/footer-logo.svg"
+              alt="Лого надпись Кэт энерджи" /></a></li>
+        <li class="footer-list__list-item"><a href="https://www.instagram.com/" target="_blank"><img
+              src="./img/icon/icon_instagram.svg" alt="Instagram" />Инстаграм</a></li>
+        <li class="footer-list__list-item"><a href="https://www.facebook.com/" target="_blank"><img
+              src="./img/icon/icon_facebook.svg" alt="Facebook" />Фейсбук</a></li>
+        <li class="footer-list__list-item"><a href="https://vk.com/" target="_blank"><img
+              src="./img/icon/icon_vkontakte.svg" alt="VK" />Вконтакте</a></li>
+        <li class="footer-list__list-item"><a href="https://echo.htmlacademy.ru/"><img src="./img/logo/logo_html.svg"
+              alt="Html Academy" /></a></li>
+      </ul>
+    </div>
+  </footer>
+
+</html>
