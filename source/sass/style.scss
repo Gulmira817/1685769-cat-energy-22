@@ -1,1 +1,29 @@
-body { background: blue; }
+// Global
+
+@import "./global/font.scss";
+@import "./global/variable.scss";
+
+// Blocks page
+@import "./blocks/page.scss";
+@import "./blocks/page-header.scss";
+
+//Block main-nav
+@import "./blocks/main-nav.scss";
+
+//Block switch-over-program
+@import "./blocks/switch-over-program.scss";
+
+//Block type-food
+@import "./blocks/type-food.scss";
+
+//Block benefits-food
+@import "./blocks/benefits-food.scss";
+
+//Block example
+@import "./blocks/example.scss";
+
+//Block cooperation
+@import "./blocks/cooperation.scss";
+
+//Block page-footer
+@import "./blocks/page-footer.scss";

@@ -1,0 +1,28 @@
+.example {
+  background-color: $gray;
+}
+
+.example__header {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.example__number {
+  font-size: 24px;
+  line-height: 24px;
+  color: $basic-black;
+}
+
+.desc {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.total{
+    line-height: 20px;  
+}
+
+.example-slider__text {
+    font-size: 16px;
+    line-height: 20px;
+}
