@@ -1,0 +1,28 @@
+.about-cat-fieldset{
+    display:flex;
+    flex-direction: column;
+}
+
+.selection-program-form__header{
+    font-size:36px;
+    line-height: 36px;
+    color:$basic-black;
+}
+.about-cat__text{
+    font-size:14px;
+    line-height:18px;
+    color:$basic-black;
+    text-transform: uppercase;
+}
+.selection-program-form__text-field {
+    font-size:16px;
+    line-height:18px;
+    color:$special-dark-gray;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    color:$special-dark-gray;
+}
+.selction-program-form__input-field {
+    margin-left: 17px;
+    padding: 15px;
+}
